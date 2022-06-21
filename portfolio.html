@@ -20,26 +20,32 @@
 
   <body>
     <header class="page-header">
-      <div class="container main-nav">
-        <a lang="en" href="./index.html" class="logo">Web<span class="logo accent">Studio</span></a>
+      <div class="container container--header">
+        <a lang="en" href="./index.html" class="logo"
+          >Web<span class="logo logo--black">Studio</span></a
+        >
         <nav>
-          <ul class="site-nav">
-            <li><a href="./index.html" class="nav-link">Студия</a></li>
-            <li><a href="./portfolio.html" class="nav-link current">Портфолио</a></li>
-            <li><a href="" class="nav-link">Контакты</a></li>
+          <ul class="nav-list">
+            <li class="nav-list__item"><a href="./index.html" class="nav-list__link">Студия</a></li>
+            <li class="nav-list__item">
+              <a href="./portfolio.html" class="nav-list__link nav-list__link--current"
+                >Портфолио</a
+              >
+            </li>
+            <li class="nav-list__item"><a href="" class="nav-list__link">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="auth-nav">
-          <li>
-            <a href="mailto:info@devstudio.com" class="contacts-link">
-              <svg class="icon-brief">
+        <ul class="auth-list">
+          <li class="auth-list__item">
+            <a href="mailto:info@devstudio.com" class="auth-list__link">
+              <svg class="auth-list__icon-brief">
                 <use href="./images/svg/symbol-defs.svg#brief"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+380961111111" class="contacts-link"
-              ><svg class="icon-smartphone">
+          <li class="auth-list__item">
+            <a href="tel:+380961111111" class="auth-list__link"
+              ><svg class="auth-list__icon-smartphone">
                 <use href="./images/svg/symbol-defs.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -54,19 +60,19 @@
           <h1 class="portfolio__title">Портфолио</h1>
           <ul class="btn-list">
             <li class="btn-list__item">
-              <button type="button" class="button secondary">Все</button>
+              <button type="button" class="button button--secondary">Все</button>
             </li>
             <li class="btn-list__item">
-              <button type="button" class="button secondary">Веб-сайты</button>
+              <button type="button" class="button button--secondary">Веб-сайты</button>
             </li>
             <li class="btn-list__item">
-              <button type="button" class="button secondary">Приложения</button>
+              <button type="button" class="button button--secondary">Приложения</button>
             </li>
             <li class="btn-list__item">
-              <button type="button" class="button secondary">Дизайн</button>
+              <button type="button" class="button button--secondary">Дизайн</button>
             </li>
             <li class="btn-list__item">
-              <button type="button" class="button secondary">Маркетинг</button>
+              <button type="button" class="button button--secondary">Маркетинг</button>
             </li>
           </ul>
 
@@ -251,7 +257,7 @@
       <div class="container footer-content">
         <div>
           <a lang="en" href="./index.html" class="logo"
-            >Web<span class="logo accent-bottom">Studio</span></a
+            >Web<span class="logo logo--white">Studio</span></a
           >
           <address class="footer-address">
             <ul class="address-list">
